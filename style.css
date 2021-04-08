@@ -1,0 +1,83 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.firstImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("./img/firstImage.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.title {
+  position: absolute;
+  color: #fff;
+  font-size: 27px;
+  letter-spacing: 8px;
+  background-color: #111;
+}
+
+.title p {
+  margin: 0px;
+  padding: 16px;
+  text-align: center;
+}
+
+.lightInfo {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.secondImage {
+  display: flex;
+  background: url("./img/secondImage.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.image-headline {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin: 0px;
+}
+
+.darkInfo {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.thirdImage {
+  background: url("./img/thirdImage.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+footer p {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .firstImage,
+  .secondImage,
+  .thirdImage {
+    background-attachment: scroll;
+  }
+}
